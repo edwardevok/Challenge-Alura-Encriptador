@@ -2,6 +2,7 @@
 const button = document.querySelector("#boton");
 const button2 = document.querySelector("#boton2");
 const button3 = document.querySelector("#boton3");
+const button4 = document.querySelector("#boton4");
 const input1 = document.querySelector("#in_1");
 const input2 = document.querySelector("#in_2");
 const imagen = document.querySelector(".img");
@@ -68,4 +69,15 @@ button2.addEventListener("click", () => {
 button3.addEventListener("click", () => {
   input2.select();
   document.execCommand("copy");
+});
+
+/* BORRAR */
+button4.addEventListener("click", () => {
+  input1.value = "";
+  input2.value = "";
+  input2.classList.add("esconder");
+  button3.classList.add("esconder");
+  mensaje1.classList.remove("esconder");
+  mensaje2.classList.remove("esconder");
+  imagen.classList.remove("esconder");
 });
