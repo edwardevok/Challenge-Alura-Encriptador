@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/Vector.png" class="loguito" alt="logo alura" />
+      </div>
+    </header>
+
+    <!-- div que contiene a ambos inputs -->
+    <h1>Encriptador de palabras</h1>
+    <div class="input-container">
+      <div>
+        <textarea type="text" id="in_1"> </textarea>
+      </div>
+
+      <div>
+        <textarea type="text" id="in_2" class="esconder"></textarea>
+        <img src="img/Muñeco.png" alt="" class="img esconder" />
+        <p class="aviso esconder" id="tx1">No se encontró ningun texto</p>
+        <p class="aviso2 esconder" id="tx2">
+          Ingresá el texto que deseas encriptar o desencriptar
+        </p>
+      </div>
+    </div>
+
+    <div class="b-cont">
+      <p id="boton">Encriptar</p>
+      <p id="boton2">Desencriptar</p>
+      <p id="boton3" class="esconder">Copiar</p>
+    </div>
+
+    <footer>
+      <p class="f-text">Made with love by Eduardo López</p>
+
+      <a href="https://www.linkedin.com/in/eduardolopezdev/" target="_blank"
+        ><img src="img/linkedin.png" class="logo-in" alt=""
+      /></a>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
