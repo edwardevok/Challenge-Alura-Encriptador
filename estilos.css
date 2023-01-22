@@ -187,10 +187,10 @@ footer {
   }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 640px) {
   #in_2,
   #in_1 {
-    width: 15rem;
+    width: 18rem;
   }
 
   .b-cont {
